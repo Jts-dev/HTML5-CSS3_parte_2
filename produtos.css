@@ -34,10 +34,25 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color:#c78c19;
+    text-decoration: underline;
+}
 .produtos{
     padding: 50PX 0;
     width: 940PX;
     margin: 0 auto;
+}
+.produtos li:hover {
+    border-color: #c78c19;
+}
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover H2 {
+    color: #c78c19;
+    font-size: 34PX;
 }
 
 .produtos li {
